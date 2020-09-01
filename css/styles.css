@@ -90,3 +90,70 @@ footer{
 	margin: 20px 0 0 0;
 	color:#ccc;
 }
+
+
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+	width: 7px;
+	background: rgba(255, 60, 0, 0.472);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(235, 63, 33, 0.698);
+	border-radius: 12px;
+}
+
+/* RESPONSIVE DESING */
+
+@media screen and (max-width:950px){
+	header{
+		background-position: center;
+	}
+
+	.textos-header h1{
+		font-size: 40px;
+	}
+
+
+
+
+
+	.copy{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width:750px){
+	
+	header .textos-header{
+		flex-direction: column;
+		background-position: center;
+	}
+	.textos-header h1{
+		font-size: 35px;
+		margin-bottom: 35px;
+	}
+}
+
+@media screen and (max-width:500px){
+	
+	header .textos-header{
+		flex-direction: column;
+		background-position: center;
+	}
+	.textos-header h1{
+		font-size: 20px;
+		margin-bottom: 35px;
+	}
+
+	.copy{
+		font-size: 7px;
+	}
+}
+
