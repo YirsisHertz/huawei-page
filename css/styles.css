@@ -129,7 +129,7 @@ footer{
 	}
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:770px){
 	
 	header .textos-header{
 		flex-direction: column;
@@ -157,3 +157,10 @@ footer{
 	}
 }
 
+@media screen and (max-width:350px){
+
+	.logo{
+		width: 250px;
+	}
+	
+}
