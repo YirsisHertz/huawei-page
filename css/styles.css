@@ -1,103 +1,181 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-*{
-	margin:0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* HEADER */
 
-header{
-	width:100%;
-	height: 600px;
-	/*Degradado */
-	background: #ED213A;
-	background: -webkit-linear-gradient(to right, hsla(6, 66%, 35%, 0.459), hsla(353, 85%, 53%, 0.459)), url(../img/img1.jpg);
-	background: linear-gradient(to right, hsla(6, 66%, 35%, 0.459), hsla(353, 85%, 53%, 0.459)), url(../img/img1.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
+header {
+  width: 100%;
+  height: 600px;
+  /*Degradado */
+  background: #ed213a;
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(6, 66%, 35%, 0.459),
+      hsla(353, 85%, 53%, 0.459)
+    ),
+    url(../img/img1.jpg);
+  background: linear-gradient(
+      to right,
+      hsla(6, 66%, 35%, 0.459),
+      hsla(353, 85%, 53%, 0.459)
+    ),
+    url(../img/img1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 
-.textos-header h1{
-	font-size: 50px;
-	color: #fff;
-	text-shadow: 3px 3px 1px #000;
+.textos-header h1 {
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 3px 3px 1px #000;
 }
 
-header .textos-header{
-	display: flex;
-	height: 430px;
-	width: 100%;
-	align-items: center;
-	justify-content: space-evenly;
-	flex-direction: row-reverse;
-	text-align: center;
-	
+header .textos-header {
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  text-align: center;
 }
 
-.logo{
-	width: 320px;
+.logo {
+  width: 320px;
 }
 
-
-.wave{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+.contenedor {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
 }
 
-
-.contenedor{
-	padding: 60px 0;
-	width: 90%;
-	max-width: 1000px;
-	margin: auto;
-	overflow: hidden;
+.seccion_uno {
+  display: flex;
+  justify-content: space-evenly;
 }
 
+.seccion_uno > img {
+  width: 400px;
+  padding: 0 30px 0 0;
+  border-radius: 20px;
+}
 
+.subtitulos {
+  text-align: center;
+  font-weight: bold;
+  margin: 60px 0;
+  font-size: 40px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid rgb(202, 24, 39);
+}
 
+.primer-texto p {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 18px;
+}
 
+.seccion_dos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.seccion_dos > img {
+  height: 400px;
+  padding: 0 30px 0 0;
+}
+
+.segundo-texto p {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.segundo-texto div {
+  width: 32px;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center; /*
+	background:  rgb(202, 24, 39);*/
+  color: #000;
+  border-right: 2px solid rgb(202, 24, 39);
+  border-bottom: 2px solid rgb(202, 24, 39);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.seccion_tres {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.seccion_tres .video {
+  width: 100%;
+  margin-left: 30%;
+  padding: 0 0 30px 0;
+}
+
+.tercer-texto p {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 21px;
+}
 
 /* FOOTER */
 
-footer{
-	background: #333;
-	padding: 60px 0 40px 0;
-	margin: auto;
-	overflow: hidden;
+footer {
+  background: #333;
+  padding: 60px 0 40px 0;
+  margin: auto;
+  overflow: hidden;
 }
 
-.contenedor-footer{
-	display: flex;
-	width: 90%;
-	justify-content: space-evenly;
-	margin: auto;
-	padding-bottom: 10px;
-	border-bottom: 1px  solid #ccc;
+.contenedor-footer {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
 }
 
-.contenedor-footer h2{
-	color:snow;
+.contenedor-footer h2 {
+  color: snow;
 }
 
-.copy{
-	text-align: center;
-	font-size: 20px;
-	margin: 20px 0 0 0;
-	color:#ccc;
+.copy {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0 0 0;
+  color: #ccc;
 }
-
-
 
 /* SCROLLBAR */
 
-::-webkit-scrollbar{
-	width: 7px;
-	background: rgba(255, 60, 0, 0.472);
+::-webkit-scrollbar {
+  width: 7px;
+  background: rgba(255, 60, 0, 0.472);
 }
 
 ::-webkit-scrollbar-track {
@@ -106,61 +184,53 @@ footer{
 
 ::-webkit-scrollbar-thumb {
   background: rgba(235, 63, 33, 0.698);
-	border-radius: 12px;
+  border-radius: 12px;
 }
 
 /* RESPONSIVE DESING */
 
-@media screen and (max-width:950px){
-	header{
-		background-position: center;
-	}
+@media screen and (max-width: 950px) {
+  header {
+    background-position: center;
+  }
 
-	.textos-header h1{
-		font-size: 40px;
-	}
+  .textos-header h1 {
+    font-size: 40px;
+  }
 
-
-
-
-
-	.copy{
-		font-size: 13px;
-	}
+  .copy {
+    font-size: 13px;
+  }
 }
 
-@media screen and (max-width:770px){
-	
-	header .textos-header{
-		flex-direction: column;
-		background-position: center;
-	}
-	.textos-header h1{
-		font-size: 35px;
-		margin-bottom: 35px;
-	}
+@media screen and (max-width: 770px) {
+  header .textos-header {
+    flex-direction: column;
+    background-position: center;
+  }
+  .textos-header h1 {
+    font-size: 35px;
+    margin-bottom: 35px;
+  }
 }
 
-@media screen and (max-width:500px){
-	
-	header .textos-header{
-		flex-direction: column;
-		background-position: center;
-	}
-	.textos-header h1{
-		font-size: 20px;
-		margin-bottom: 35px;
-	}
+@media screen and (max-width: 500px) {
+  header .textos-header {
+    flex-direction: column;
+    background-position: center;
+  }
+  .textos-header h1 {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
 
-	.copy{
-		font-size: 7px;
-	}
+  .copy {
+    font-size: 7px;
+  }
 }
 
-@media screen and (max-width:350px){
-
-	.logo{
-		width: 250px;
-	}
-	
+@media screen and (max-width: 350px) {
+  .logo {
+    width: 250px;
+  }
 }
